@@ -1,6 +1,6 @@
 {
-  "name": "Place1",
-  "servePort": have different port id per place file,
+  "name": "Place2",
+  "servePort": 8001,
   "servePlaceIds": [place id],
   "tree": {
     "$className": "DataModel",

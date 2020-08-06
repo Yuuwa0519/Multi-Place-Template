@@ -1,0 +1,1 @@
+print("This is Shared Script in ServerScriptService!")
