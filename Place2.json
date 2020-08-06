@@ -1,0 +1,51 @@
+{
+  "name": "Place1",
+  "servePort": have different port id per place file,
+  "servePlaceIds": [place id],
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Common": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "ServerShared": {
+        "$path": "src/server"
+      },
+
+      "ServerLocal": {
+        "$path": "src/ServerPlace2"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+
+        "ClientShared": {
+          "$path": "src/client"
+        },
+
+        "ClientLocal": {
+          "$path": "src/clientPlace2"
+        }
+      }
+    },
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    }
+  }
+}
