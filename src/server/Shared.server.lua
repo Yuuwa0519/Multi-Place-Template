@@ -1,1 +1,1 @@
-print("This is Shared Script in ServerScriptService!")
+print("This Server Script Will be Synced in Every Places, Inside of Server Script Service!")

@@ -1,1 +1,1 @@
-print("This Will Only Synced in Every Place!")
+print("This Clinet Script Will Be Synced in Every Place, Inside of Starter Player Scripts!")
